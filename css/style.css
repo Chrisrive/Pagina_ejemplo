@@ -1,0 +1,35 @@
+html{
+	width: 100%;
+margin: 0;
+padding: 0;
+}
+
+header{
+	width: 100%;
+	height: 110px;
+	background: #95a5a6;
+	color: white;
+	font-size: 2em;
+	text-align: justify;
+	padding:0.5em; 
+}
+
+section,aside,footer{
+background: #bdc3c7;
+}
+
+section{width: 70%; float: left;height: 700px;}
+aside{width:29%;float: left;height: 700px;margin-left: 1%;}
+aside,section,footer{
+	margin-top: 0.3em;
+	font-size: 20px;
+	color: white;
+	padding: 0.5em;
+	box-sizing: border-box;
+	overflow: hidden;
+}
+footer{
+	margin-top: 0.5em;
+	clear: both;
+
+}
